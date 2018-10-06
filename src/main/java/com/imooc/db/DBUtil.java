@@ -16,6 +16,7 @@ public class DBUtil {
         ResultSet resultSet = statement.executeQuery("select user_phone,seckill_id from success_killed ");
         while (resultSet.next()){
             System.out.println("123safasf");
+            System.out.println(" ");
             System.out.println(resultSet.getLong("user_phone")+","+resultSet.getLong("seckill_id"));
         }
     }
