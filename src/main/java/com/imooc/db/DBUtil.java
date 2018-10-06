@@ -15,8 +15,7 @@ public class DBUtil {
         Statement statement = connection.createStatement();
         ResultSet resultSet = statement.executeQuery("select user_phone,seckill_id from success_killed ");
         while (resultSet.next()){
-            System.out.println();
-            System.out.println();
+            System.out.println("123safasfa");
             System.out.println(resultSet.getLong("user_phone")+","+resultSet.getLong("seckill_id"));
         }
     }
